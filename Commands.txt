@@ -2,7 +2,7 @@ git config --global user.name Gautam							= sets name
 
 git config --global user.email 0101gautamkumar@gmail.com	= sets email
 
-touch .gitignore = create a gitignore file in the particular folder (touch command is used to create a file in the directory) (under the gitignore file write the folder or files name like node_modules/ that are not in use or are the big files that you don't want to push to your github repository)
+touch .gitignore = create a gitignore file in the particular folder (touch command is used to create a file in the directory) (under the gitignore file write the folder or files name like node_modules/ that are not in use or are the big files that you don't want to push to your github repository it ignores the file or folder mention in gitignore)
 
 git init = it initialize your project and creates a .git folder (it creates a .git folder which is hidden folder so always do show hidden folders in the file manager settings)
 
@@ -11,5 +11,26 @@ git add . = it helps to move all your contents in the staging area
 git commit -m "Initial commit" = it creates a snapshot of your folder which you do after git add . and git commit 
 
 git status = it gives you the status of the folder which you want to add as repository in github
+
+*******
+after git status if this message comes as
+"on branch master
+nothing to commit, working tree clean"
+then you are ready with your folder to publish to your github
+********
+
+git remote add origin <copy the ssh link in the repository like git@github.com:Gautam123bot/startgithub.git) = it gets linked to the content of the particular folder or file to your github repository git@github.com:Gautam123bot/startgithub.git after this the content of the file or folder goes to the github repository
+
+now create a new ssh key by going to your setting in the github and search on the google for the creating of new ssh key (their will be commands of the ssh key follow them i.e. visit docs.github.com
+command for creating a new ssh is ssh-keygen -t rsa -b 4096 -C "0101gautamkumar@gmail.com"
+cat ssh = it gives your full ssh key
+now copy your ssh key link and paste to your github ssh input column
+
+and now give your previous command
+
+git push origin master = it gives access to your computer to push the repository on the github
+
+now you are ready with your project on github
+
 
 

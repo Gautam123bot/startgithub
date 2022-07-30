@@ -33,4 +33,11 @@ git push origin master = it gives access to your computer to push the repository
 now you are ready with your project on github
 
 
+--------------- How to update your folder in github----------------------
+
+git status
+git add .
+git commit -m "Added cheatsheet"
+git push origin master
+------------ now refresh the page and you are ready with your update on github
 

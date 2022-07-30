@@ -6,3 +6,10 @@ touch .gitignore = create a gitignore file in the particular folder (touch comma
 
 git init = it initialize your project and creates a .git folder (it creates a .git folder which is hidden folder so always do show hidden folders in the file manager settings)
 
+git add . = it helps to move all your contents in the staging area
+
+git commit -m "Initial commit" = it creates a snapshot of your folder which you do after git add . and git commit 
+
+git status = it gives you the status of the folder which you want to add as repository in github
+
+

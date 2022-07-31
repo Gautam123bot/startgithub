@@ -23,7 +23,8 @@ git remote add origin <copy the ssh link in the repository like git@github.com:G
 
 now create a new ssh key by going to your setting in the github and search on the google for the creating of new ssh key (their will be commands of the ssh key follow them i.e. visit docs.github.com
 command for creating a new ssh is ssh-keygen -t rsa -b 4096 -C "0101gautamkumar@gmail.com"
-cat ssh = it gives your full ssh key
+
+cat <file path in .pub> = it gives your full ssh key (cat /c/users/iitia/.ssh/id_rsa.pub)
 now copy your ssh key link and paste to your github ssh input column
 
 and now give your previous command
